@@ -1,0 +1,13 @@
+prefix=/Users/arafat/my_folder/ATS/ats
+exec_prefix=/Users/arafat/my_folder/ATS/ats
+libdir=/Users/arafat/my_folder/ATS/ats/lib
+sharedlibdir=/Users/arafat/my_folder/ATS/ats/lib
+includedir=/Users/arafat/my_folder/ATS/ats/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
