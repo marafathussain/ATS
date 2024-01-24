@@ -6,9 +6,9 @@ First create a new conda environment. For example, here:
 
 ```conda create -p ats python==3.10 -y```
 
-Then activate conda enviroment:
+Then activate conda enviroment (path to the environment folder):
 
-```conda activate \path\to\ats\activate```
+```conda activate \path\to\ats```
 
 Then install dependencies:
 
